@@ -27,6 +27,7 @@ body{
 .manubar ul li{
  font-size: 20px;
  font-weight: bold;
+ text-transform: capitalize;
 }
 .log-1{
     width: 40%;
@@ -284,6 +285,9 @@ margin-top: -4.5%;
     border-radius: 5%;
     box-shadow: 10px 10px 40px rgb(124, 109, 109) ;
 }
+.col-3-1 a{
+    text-decoration: none;
+}
 .col-3-1 p{
     width: 100%;
     height: 40px;
@@ -338,3 +342,103 @@ margin-top: -4.5%;
     margin-right: 5%;
     margin-bottom: 8%;
 }
+.container-11{
+    width: 85%;
+    height: 400px;
+    background-color: rgb(178, 193, 202);
+    margin: 5%;
+}
+.logom {
+    width: 40%;
+   
+}
+.logom img{
+    width: 450px ;
+    height: 400px;
+}
+.mesi{
+    widows: 40%; 
+    height: 40px;
+    margin-left: 10%;
+}
+.rowm{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+}
+.mesi h1{
+font-size: 50px ;
+font-weight: bold;
+padding: 20px 0px;
+color: lightseagreen;
+}
+.mm{
+    color: rgb(10, 231, 21);
+}
+.mesi h3{
+    font-size: 40px ;
+    font-weight: bold;
+    padding:0px 0px 20px 0px;
+    color: rgb(238, 15, 208);
+    }
+
+
+    .container-9{
+        width: 85%;
+        height: 500px;
+        background-color: rgba(227, 234, 238, 0.514);
+       margin: 5%;
+    }
+    .logon {
+        width: 40%;
+       
+    }
+    .neymar p{
+        width: 80%;
+        height: 250px;
+        color: rgba(22, 7, 243, 0.966);
+    }
+    .logon img{
+        width: 500px ;
+        height: 500px;
+        border-radius: 50%;
+    }
+    .neymar{
+        widows: 40%; 
+        height: 40px;
+        padding: 25px;
+        
+    }
+    .rown{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        
+    }
+    .neymar h1{
+    font-size: 50px ;
+    font-weight: bold;
+    padding: 20px 0px;
+    color: rgb(51, 241, 13);
+    }
+    .nn{
+        color: rgb(132, 15, 241);
+    }
+    .neymar h3{
+        font-size: 40px ;
+        font-weight: bold;
+        padding:0px 0px 20px 0px;
+        color: rgb(241, 72, 6);
+        }
+    
+    
+
+
+
+
+
+
+
+
+
