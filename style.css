@@ -2,6 +2,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -30,15 +31,14 @@ body{
 .log-1{
     width: 40%;
     height: 200px;
-   
-
+    margin-left: 10%;
+    padding-left: 25%;
+    padding-top: 9%;
 }
 .log-1 img{
     width: 450px;
     height: 450px;
-    padding-top: 20%;
-    margin-left: 10%;
-    padding-left: 15%;
+    background-position: right center;
 }
 .row{
     width: 100%;
@@ -50,15 +50,16 @@ body{
 .col-1 {
     padding-top: 7%;
    padding-left: 10%;
-   width: 30%;
+   width: 80%;
 }
 .col-1 h1{
-    font-size: 80px;
+    width: 100%;
+   font-size: 60px;
     font-weight: bold;
     color: rgb(184, 41, 112);
 }
 .col-1 h2{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(11, 194, 27);
 }
@@ -79,15 +80,14 @@ body{
     padding: 20px 0px 10px 0px;
 }
 .container{
-    width: 100%;
+    width: 800px;
     height: 600px;
   flex-wrap: wrap ;
-    padding: 0px 0px 20px 0px;
+    padding: 10px 10px 20px 10px;
 }
 .containar-1{
-    width: 100%;
+    width: 800px;
     height: 500px;
-    flex-wrap: wrap;
     margin-top: 80px ;
     margin-bottom: 20px;
 }
@@ -98,40 +98,69 @@ body{
 .log-2 img{
     width: 450px;
     height: 450px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .text{
-    width: 40%;
+    width: 300px;
     height: 200px;
+   
 }
 .row-1{
     width: 100%;
     height: 500px;
     display: flex;
-    justify-content:space-around;
-    
+    margin-left: 7%;
+   
 }
 .text h1{
     margin-top: 30px;
     padding-top: 20px;
-   
+   margin-left: 50%;
+   padding-left: 50%;
+   color: rgb(255, 38, 9);
 }
 .text p{
+    width: 150%;
+    height: 200px;
     padding: 30px 0px;
+    margin-left: 50%;
+    padding-left: 50%;
+    color: rgb(32, 29, 29);
+}
+.but-1-1{
+    width: 50%;
+    height: 40px;
+    margin-left: 100%;
+  
+    margin-top: 1%;
+
+    border: none;
+    border-radius: 3%;
+    background-color: indianred;
+
+}
+.but-1-1 a{
+   text-decoration: none;
+    font-size: 20px;
+
 }
 .col-3{
-    width:350px;
-    height: 150px;
-    padding-top: 70px;
-    padding-left: 7%;
-    background-color: lemonchiffon;
+    widows: 800px;
+    height: 200px;
+    padding-top: 20px;
+    margin-top: 6%;
+    margin-right:3.5%;
+    margin-left: 3.5%;
+    box-shadow: 20px 20px 100px rgb(87, 84, 84) ;
+    background-color: rgb(218, 215, 196);
     
 }
 .containar-3{
-    width: 100%;
-    height: 100px;
-   margin: 30% 0%;
-   padding: 10% 0%;
+    width:   80%;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 500px;
+   background-color: rgba(236, 220, 220, 0.507);
  
 
 }
@@ -141,6 +170,8 @@ body{
    font-size: 35px;
    color: lime;
   
+   padding-top: 30px;
+  
 
 }
 .head-col{
@@ -149,13 +180,161 @@ body{
 .col-3 img{
     width: 300px;
     height: 250px;
+    padding-left: 10px;
 }
 .row-3{
     width: 100%;
     display: flex;
+    justify-content: space-around;
+}
+.col-3 h4{
+ color: mediumpurple;
+ padding: 10px 10px;
+ font-size: 25px;
+}
+.col-3 p{
+    padding: 0px 5px;
+}
+.title-col{
+  color: rgb(236, 12, 68);
+}
+.log-3 img{
+    width: 70%;
+    height: 120px;
+    margin-top: 100px;
+    margin-left: 45%;
+}
+.log-3 {
+  width: 100%;
+  height: 300px;
+
+ 
+   
+}
+.containar-4{
+  
+ width:  60%;
+ height: 400px;
+ margin: 30px 0px;
+
+}
+.text-2 h1{
+    margin-left:47%;
+    margin-top: -11.5%;
+    color: rgb(228, 10, 10);
+}
+.but-2 button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 4%;
+ background-color: rgb(206, 120, 8);
+   
+}
+.text-2{
+   width: 100%;
+    height: 300px;
+
+}
+.but-2{
+   width: 10%;
+    height: 200px;
+margin-top: -4.5%;
+    margin-left:98%;
+   
+}
+.but-2 a{
+    text-decoration: none;
+}
+
+
+  
+.containar-5{
+    width: 85%;
+    height: 820px;
+    background-color: rgb(184, 176, 190);
+    margin:2% 5% 2% 5%;
+    
     
 }
-.col-3 h2{
- font-weight: bold;
- color: mediumpurple;
+.top-1 h1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    color: rgb(224, 53, 10);
+}
+.col-3-1 img{
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 50%;
+}
+.col-3-1 h3{
+    font-weight: bold;
+    padding-top: 15px;
+    color: rgb(255, 0, 212);
+    font-size: 25px;
+}
+.col-3-1 {
+    width: 30%;
+    height: 550px;
+    margin-left:2%;
+    padding:10px  20px 10px 20px;
+    background-color: rgb(231, 185, 185);
+    border-radius: 5%;
+    box-shadow: 10px 10px 40px rgb(124, 109, 109) ;
+}
+.col-3-1 p{
+    width: 100%;
+    height: 40px;
+}
+.row-3-1{
+    width: 100%;
+    height: 420px;
+    margin: 10% 15px;
+    display: flex;
+}
+.but-3{
+    width: 30%;
+    height: 40px;
+    padding: 10px 0px;
+    border: none;
+    margin-top: 28%;
+    border-radius: 3%;
+    background-color: indianred; 
+}
+.but-3 a{
+    text-decoration: none;
+}
+.containar-6{
+    width: 85%;
+    background-color: indigo;
+    margin: 20px 50px 20px 65px;
+    
+   
+}
+.end{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(197, 219, 175);
+}
+.end h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.end h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 0px;
+}
+.log-5{
+    margin-left: 30%;
+    margin-top: 3%;
+  
+}
+.log-5 img{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%;
 }
